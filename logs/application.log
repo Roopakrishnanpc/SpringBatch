@@ -1,0 +1,10 @@
+2024-07-30T18:23:25.400+05:30  INFO 7552 --- [SpringBatch] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-07-30T18:23:25.413+05:30 DEBUG 7552 --- [SpringBatch] [RMI TCP Connection(10)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-07-30T18:23:25.419+05:30 DEBUG 7552 --- [SpringBatch] [RMI TCP Connection(10)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@545de5a4, started on Tue Jul 30 18:21:18 IST 2024
+2024-07-30T18:23:25.436+05:30 DEBUG 7552 --- [SpringBatch] [RMI TCP Connection(10)-127.0.0.1] c.Batch.config.BatchPartitionConfig$1    : Shutting down ExecutorService 'taskExecutor'
+2024-07-30T18:23:25.437+05:30  INFO 7552 --- [SpringBatch] [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-30T18:23:25.438+05:30 DEBUG 7552 --- [SpringBatch] [RMI TCP Connection(10)-127.0.0.1] org.hibernate.SQL                        : drop table if exists industry_db
+2024-07-30T18:23:25.452+05:30 DEBUG 7552 --- [SpringBatch] [RMI TCP Connection(10)-127.0.0.1] org.hibernate.SQL                        : drop table if exists industry_db_seq
+2024-07-30T18:23:25.465+05:30  INFO 7552 --- [SpringBatch] [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-30T18:23:25.472+05:30  INFO 7552 --- [SpringBatch] [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-30T18:23:25.473+05:30 DEBUG 7552 --- [SpringBatch] [RMI TCP Connection(10)-127.0.0.1] o.s.b.c.c.s.JobRegistryBeanPostProcessor : Unregistering job: importIndustry
